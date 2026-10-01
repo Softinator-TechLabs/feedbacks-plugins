@@ -1,9 +1,9 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "source_repository": "https://github.com/Softinator-TechLabs/feedbacks-oss",
-  "source_revision": "e136aaa0a70bca5091c53f2c9788860aba0c53ac",
-  "source_tag": "v0.2.1",
-  "source_ci": "https://github.com/Softinator-TechLabs/feedbacks-oss/actions/runs/36807947558",
+  "source_revision": "a257d6a17c9528c51047e46817c554d0af515364",
+  "source_tag": "v0.2.2",
+  "source_ci": "https://github.com/Softinator-TechLabs/feedbacks-oss/actions/runs/36849353528",
   "packaging": "Canonical native Claude Code/Codex bundle; catalogs point to the respective runtime subdirectories. No private launch material.",
   "files": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "path": "claude/feedbacks/.claude-plugin/plugin.json",
-      "sha256": "574247e35ae2e3e6971e2c83fc15b2f22c06ba66a7a9f787abf6ae94687172a7"
+      "sha256": "764fe73ea67a7d4c60d126eed73453fff9852da5f161555f7b049788901e1751"
     },
     {
       "path": "claude/feedbacks/.mcp.json",
@@ -92,7 +92,7 @@
     },
     {
       "path": "claude/feedbacks/mcp.mjs",
-      "sha256": "2f9545ec37faf5154ff9b552339a2997a06a43b6437b6c60f7b53c8759264b1e"
+      "sha256": "6a575f9826a60f9d9a15d324507f8da1cf66ac4ab08607b85bedf80323507872"
     },
     {
       "path": "claude/feedbacks/mcp.mjs.LEGAL.txt",
@@ -104,11 +104,11 @@
     },
     {
       "path": "claude/feedbacks/skills/review-feedback/SKILL.md",
-      "sha256": "b5a8f49c2124a0cbaa71f9869faec5d84c6a69b0d4168f0da310b07b3f308707"
+      "sha256": "ccf98c16455a3274138422b988dec612ac257757c443c2c59de9b3910d269268"
     },
     {
       "path": "claude/feedbacks/skills/review-feedback/references/glossary.md",
-      "sha256": "a5807e3b8208663b52485f4798aecb3a85a2a1b273956007cabc54692606f4f7"
+      "sha256": "f9f803b09000c477c069b2048bd758f615cc75f092b288d401b4dfaa52566960"
     },
     {
       "path": "claude/feedbacks/skills/review-feedback/references/install.md",
@@ -120,11 +120,11 @@
     },
     {
       "path": "claude/feedbacks/skills/review-feedback/references/workflow.md",
-      "sha256": "4002641585a9c969918c72a36d3f4f11cd0a4aa9fac877ba542a7e042e298da1"
+      "sha256": "97bab8e0ecb3c9f7584c49eac8cb15e0cc003986b3e8d6874f83435f7da3dcfa"
     },
     {
       "path": "codex/feedbacks/.codex-plugin/plugin.json",
-      "sha256": "06a2025e952b36bf742f3e4c326f83fcd8df60cf11194a7eb0a2a93aed2819e8"
+      "sha256": "0fba7888192873506ccfb5574e597ec8a6d952c2f3ffb9c97c4c1c2cb383ec22"
     },
     {
       "path": "codex/feedbacks/.mcp.json",
@@ -184,7 +184,7 @@
     },
     {
       "path": "codex/feedbacks/mcp.mjs",
-      "sha256": "2f9545ec37faf5154ff9b552339a2997a06a43b6437b6c60f7b53c8759264b1e"
+      "sha256": "6a575f9826a60f9d9a15d324507f8da1cf66ac4ab08607b85bedf80323507872"
     },
     {
       "path": "codex/feedbacks/mcp.mjs.LEGAL.txt",
@@ -192,7 +192,7 @@
     },
     {
       "path": "codex/feedbacks/plugin.json",
-      "sha256": "c46662445308c062cea033431961aa537db193b39fb52617583839db393835b9"
+      "sha256": "29c8e165e76b81d19291f62239f607be0565a7319fc3ab223b8b9a111071543e"
     },
     {
       "path": "codex/feedbacks/skills/manage-feedbacks-context/SKILL.md",
@@ -200,11 +200,11 @@
     },
     {
       "path": "codex/feedbacks/skills/review-feedback/SKILL.md",
-      "sha256": "b5a8f49c2124a0cbaa71f9869faec5d84c6a69b0d4168f0da310b07b3f308707"
+      "sha256": "ccf98c16455a3274138422b988dec612ac257757c443c2c59de9b3910d269268"
     },
     {
       "path": "codex/feedbacks/skills/review-feedback/references/glossary.md",
-      "sha256": "a5807e3b8208663b52485f4798aecb3a85a2a1b273956007cabc54692606f4f7"
+      "sha256": "f9f803b09000c477c069b2048bd758f615cc75f092b288d401b4dfaa52566960"
     },
     {
       "path": "codex/feedbacks/skills/review-feedback/references/install.md",
@@ -216,7 +216,7 @@
     },
     {
       "path": "codex/feedbacks/skills/review-feedback/references/workflow.md",
-      "sha256": "4002641585a9c969918c72a36d3f4f11cd0a4aa9fac877ba542a7e042e298da1"
+      "sha256": "97bab8e0ecb3c9f7584c49eac8cb15e0cc003986b3e8d6874f83435f7da3dcfa"
     }
   ]
 }
