@@ -1,0 +1,39 @@
+name: Publish MCP Registry
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: mcp-registry-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Download verified official publisher
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 --max-time 60 \
+            https://github.com/modelcontextprotocol/registry/releases/download/v1.8.1/mcp-publisher_linux_amd64.tar.gz \
+            --output "$RUNNER_TEMP/publisher.tar.gz"
+          printf '%s  %s\n' a06c9096dcb9727c13555b6be26c7effa707b01f06a4c561ba7a3635443cf2cc "$RUNNER_TEMP/publisher.tar.gz" | sha256sum --check
+          mkdir "$RUNNER_TEMP/publisher"
+          tar -xzf "$RUNNER_TEMP/publisher.tar.gz" -C "$RUNNER_TEMP/publisher"
+      - name: Validate and publish with short-lived GitHub identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          "$RUNNER_TEMP/publisher/mcp-publisher" validate registry/server.json
+          "$RUNNER_TEMP/publisher/mcp-publisher" login github-oidc
+          "$RUNNER_TEMP/publisher/mcp-publisher" publish registry/server.json
