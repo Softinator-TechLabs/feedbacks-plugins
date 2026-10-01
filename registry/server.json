@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Softinator-TechLabs/feedbacks",
+  "title": "Feedbacks",
+  "description": "Visual website feedback, screenshots and team discussion for coding assistants. Self-hosted.",
+  "version": "0.2.2",
+  "websiteUrl": "https://feedbacks.softinator.ai",
+  "repository": {
+    "url": "https://github.com/Softinator-TechLabs/feedbacks-oss",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/Softinator-TechLabs/feedbacks-plugins/releases/download/v0.2.2/feedbacks-mcp-0.2.2.mcpb",
+      "fileSha256": "b9a4f110f49706e19c9dd22b1e2251cd63b7b3fc97388e1381fd5e0b9c840668",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

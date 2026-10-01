@@ -47,4 +47,10 @@ This is the publisher's own marketplace. It is separate from Anthropic's and Ope
 
 Built from the versioned public source; see `SOURCE.json` for the exact revision and file hashes. Runtime code, skills and licensing are generated/copied from the canonical OSS build. Do not edit bundled code here; change the source and rebuild.
 
+## MCP bundle
+
+Other clients that support MCPB can install the [portable stdio adapter](https://github.com/Softinator-TechLabs/feedbacks-plugins/releases/tag/v0.2.2). Configure your own server URL and personal scoped key in the client's private settings. Native Claude Code and Codex skills remain available through the installation commands above.
+
+Maintainers publish `registry/server.json` using the manually triggered **Publish MCP Registry** workflow on `main`. The pinned official publisher authenticates with a short-lived GitHub Actions identity; no stored GitHub token or repository access is supplied to the registry. Update the manifest only after the referenced versioned bundle and its SHA-256 are available.
+
 [Setup guide](https://feedbacks.softinator.ai/docs/guide/mcp) · [Storage guide](https://feedbacks.softinator.ai/docs/guide/storage) · [Privacy](https://feedbacks.softinator.ai/privacy.html) · [Issues](https://github.com/Softinator-TechLabs/feedbacks-oss/issues) · [License](LICENSE)
