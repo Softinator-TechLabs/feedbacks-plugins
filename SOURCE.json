@@ -1,0 +1,222 @@
+{
+  "version": "0.2.1",
+  "source_repository": "https://github.com/Softinator-TechLabs/feedbacks-oss",
+  "source_revision": "e136aaa0a70bca5091c53f2c9788860aba0c53ac",
+  "source_tag": "v0.2.1",
+  "source_ci": "https://github.com/Softinator-TechLabs/feedbacks-oss/actions/runs/36807947558",
+  "packaging": "Canonical native Claude Code/Codex bundle; catalogs point to the respective runtime subdirectories. No private launch material.",
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "05992cc0dcdb622d36dff3c78ff064f1fad4f2c01c1b0450b7ff1194168d0103"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "sha256": "d4f97a93fb07b11cfa9ff083ca15df92d66d8d04c93cf53b832e307e40335dd5"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2324f666f71c24bd375d94e847e50ab987df36297b02f1218ceda8e2ad8a4147"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "7a631f5968e566c5ac12d3394da41fc1492186a58681ddfae5741a7ca1294569"
+    },
+    {
+      "path": "README.md",
+      "sha256": "4138fed1ee0c066e968fb5a35420ae6197ee0b69b379c9ecdd759330b7797c5f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "fdc5c602deb0fcea4a06a099283421174301d72d5974f11615d55a777d014af6"
+    },
+    {
+      "path": "claude/feedbacks/.claude-plugin/plugin.json",
+      "sha256": "574247e35ae2e3e6971e2c83fc15b2f22c06ba66a7a9f787abf6ae94687172a7"
+    },
+    {
+      "path": "claude/feedbacks/.mcp.json",
+      "sha256": "c077076a109af2a562a44a9300afc5cc3195dcea77c91b0e3f9e12cb4eef8996"
+    },
+    {
+      "path": "claude/feedbacks/BUILD.json",
+      "sha256": "c9639c431205f55d772c55a27d6fb46b69747da0006e4474364b203e8eea5df6"
+    },
+    {
+      "path": "claude/feedbacks/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "claude/feedbacks/NOTICE",
+      "sha256": "7a631f5968e566c5ac12d3394da41fc1492186a58681ddfae5741a7ca1294569"
+    },
+    {
+      "path": "claude/feedbacks/README.md",
+      "sha256": "82b947bd087939892d480fa898cda4421f35e4d94a850a7a189eeafe089550fb"
+    },
+    {
+      "path": "claude/feedbacks/THIRD_PARTY_NOTICES.md",
+      "sha256": "fdc5c602deb0fcea4a06a099283421174301d72d5974f11615d55a777d014af6"
+    },
+    {
+      "path": "claude/feedbacks/assets/icon.png",
+      "sha256": "d7785bb21ffc01bd0645e7b9aa899dffdf789db765ca077416d6424da894ff89"
+    },
+    {
+      "path": "claude/feedbacks/install-skill.mjs",
+      "sha256": "9cacef432bfbfd559e76dc74f7b4996fcc949cc2fde20f95bf16f3822a4433e9"
+    },
+    {
+      "path": "claude/feedbacks/licenses/@hono/node-server/LICENSE",
+      "sha256": "6895190430d809c4c57a7582ecc2f99acbc2ea39a5dfad20262a41d5b3e91733"
+    },
+    {
+      "path": "claude/feedbacks/licenses/@modelcontextprotocol/core/LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "claude/feedbacks/licenses/@modelcontextprotocol/node/LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "claude/feedbacks/licenses/@modelcontextprotocol/server/LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "claude/feedbacks/licenses/zod/LICENSE",
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+    },
+    {
+      "path": "claude/feedbacks/mcp.mjs",
+      "sha256": "2f9545ec37faf5154ff9b552339a2997a06a43b6437b6c60f7b53c8759264b1e"
+    },
+    {
+      "path": "claude/feedbacks/mcp.mjs.LEGAL.txt",
+      "sha256": "524901148a872ee4ae93dab83daee507d990e1acfa696e95e2271b1184f4a2a6"
+    },
+    {
+      "path": "claude/feedbacks/skills/manage-feedbacks-context/SKILL.md",
+      "sha256": "e019b03e637cb30b3139d1b279e9934a967910f527dfe3e31ae0bd65f4d2ac3e"
+    },
+    {
+      "path": "claude/feedbacks/skills/review-feedback/SKILL.md",
+      "sha256": "b5a8f49c2124a0cbaa71f9869faec5d84c6a69b0d4168f0da310b07b3f308707"
+    },
+    {
+      "path": "claude/feedbacks/skills/review-feedback/references/glossary.md",
+      "sha256": "a5807e3b8208663b52485f4798aecb3a85a2a1b273956007cabc54692606f4f7"
+    },
+    {
+      "path": "claude/feedbacks/skills/review-feedback/references/install.md",
+      "sha256": "8b2b103e67f826c35a497db4ad07b6d5c611d6e74bee232be3748b739192f7cb"
+    },
+    {
+      "path": "claude/feedbacks/skills/review-feedback/references/media.md",
+      "sha256": "aa8ec25eb5851134befe88b72de814e2778fa0727618d335eb74347fc287a858"
+    },
+    {
+      "path": "claude/feedbacks/skills/review-feedback/references/workflow.md",
+      "sha256": "4002641585a9c969918c72a36d3f4f11cd0a4aa9fac877ba542a7e042e298da1"
+    },
+    {
+      "path": "codex/feedbacks/.codex-plugin/plugin.json",
+      "sha256": "06a2025e952b36bf742f3e4c326f83fcd8df60cf11194a7eb0a2a93aed2819e8"
+    },
+    {
+      "path": "codex/feedbacks/.mcp.json",
+      "sha256": "4b614afe3e39af74d8aa0a56cb562bf8e73d92fadbef9cc0c590a5daab8a3d79"
+    },
+    {
+      "path": "codex/feedbacks/BUILD.json",
+      "sha256": "c9639c431205f55d772c55a27d6fb46b69747da0006e4474364b203e8eea5df6"
+    },
+    {
+      "path": "codex/feedbacks/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "codex/feedbacks/NOTICE",
+      "sha256": "7a631f5968e566c5ac12d3394da41fc1492186a58681ddfae5741a7ca1294569"
+    },
+    {
+      "path": "codex/feedbacks/README.md",
+      "sha256": "a54c665f2d865d6b63eed32899b64f9f7701167d7caf5025f551caf37a3bd062"
+    },
+    {
+      "path": "codex/feedbacks/THIRD_PARTY_NOTICES.md",
+      "sha256": "fdc5c602deb0fcea4a06a099283421174301d72d5974f11615d55a777d014af6"
+    },
+    {
+      "path": "codex/feedbacks/assets/icon.png",
+      "sha256": "d7785bb21ffc01bd0645e7b9aa899dffdf789db765ca077416d6424da894ff89"
+    },
+    {
+      "path": "codex/feedbacks/install-skill.mjs",
+      "sha256": "9cacef432bfbfd559e76dc74f7b4996fcc949cc2fde20f95bf16f3822a4433e9"
+    },
+    {
+      "path": "codex/feedbacks/licenses/@hono/node-server/LICENSE",
+      "sha256": "6895190430d809c4c57a7582ecc2f99acbc2ea39a5dfad20262a41d5b3e91733"
+    },
+    {
+      "path": "codex/feedbacks/licenses/@modelcontextprotocol/core/LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "codex/feedbacks/licenses/@modelcontextprotocol/node/LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "codex/feedbacks/licenses/@modelcontextprotocol/server/LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "codex/feedbacks/licenses/zod/LICENSE",
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+    },
+    {
+      "path": "codex/feedbacks/mcp.json",
+      "sha256": "6971dff862b45e074e1259d876eae275bbd769b006776d5d562d04527fdcf103"
+    },
+    {
+      "path": "codex/feedbacks/mcp.mjs",
+      "sha256": "2f9545ec37faf5154ff9b552339a2997a06a43b6437b6c60f7b53c8759264b1e"
+    },
+    {
+      "path": "codex/feedbacks/mcp.mjs.LEGAL.txt",
+      "sha256": "524901148a872ee4ae93dab83daee507d990e1acfa696e95e2271b1184f4a2a6"
+    },
+    {
+      "path": "codex/feedbacks/plugin.json",
+      "sha256": "c46662445308c062cea033431961aa537db193b39fb52617583839db393835b9"
+    },
+    {
+      "path": "codex/feedbacks/skills/manage-feedbacks-context/SKILL.md",
+      "sha256": "e019b03e637cb30b3139d1b279e9934a967910f527dfe3e31ae0bd65f4d2ac3e"
+    },
+    {
+      "path": "codex/feedbacks/skills/review-feedback/SKILL.md",
+      "sha256": "b5a8f49c2124a0cbaa71f9869faec5d84c6a69b0d4168f0da310b07b3f308707"
+    },
+    {
+      "path": "codex/feedbacks/skills/review-feedback/references/glossary.md",
+      "sha256": "a5807e3b8208663b52485f4798aecb3a85a2a1b273956007cabc54692606f4f7"
+    },
+    {
+      "path": "codex/feedbacks/skills/review-feedback/references/install.md",
+      "sha256": "8b2b103e67f826c35a497db4ad07b6d5c611d6e74bee232be3748b739192f7cb"
+    },
+    {
+      "path": "codex/feedbacks/skills/review-feedback/references/media.md",
+      "sha256": "aa8ec25eb5851134befe88b72de814e2778fa0727618d335eb74347fc287a858"
+    },
+    {
+      "path": "codex/feedbacks/skills/review-feedback/references/workflow.md",
+      "sha256": "4002641585a9c969918c72a36d3f4f11cd0a4aa9fac877ba542a7e042e298da1"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "feedbacks",
+  "interface": {
+    "displayName": "Feedbacks"
+  },
+  "plugins": [
+    {
+      "name": "feedbacks",
+      "source": {
+        "source": "local",
+        "path": "./codex/feedbacks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

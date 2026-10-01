@@ -1,0 +1,18 @@
+{
+  "name": "feedbacks",
+  "version": "0.2.1",
+  "description": "Visual website feedback, team discussion and reviewer context for coding assistants.",
+  "author": {
+    "name": "Softinator TechLabs",
+    "url": "https://softinator.ai"
+  },
+  "homepage": "https://feedbacks.softinator.ai",
+  "repository": "https://github.com/Softinator-TechLabs/feedbacks-oss",
+  "license": "Apache-2.0",
+  "keywords": [
+    "feedback",
+    "screenshots",
+    "mcp",
+    "code-review"
+  ]
+}

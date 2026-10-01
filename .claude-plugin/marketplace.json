@@ -1,0 +1,17 @@
+{
+  "name": "feedbacks",
+  "owner": {
+    "name": "Softinator TechLabs",
+    "url": "https://softinator.ai"
+  },
+  "metadata": {
+    "description": "Feedbacks native Claude Code plugin and review skills."
+  },
+  "plugins": [
+    {
+      "name": "feedbacks",
+      "source": "./claude/feedbacks",
+      "description": "Visual website feedback, team discussion and reviewer context for coding assistants."
+    }
+  ]
+}
