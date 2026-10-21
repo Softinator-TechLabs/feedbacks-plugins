@@ -1,10 +1,10 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "source_repository": "https://github.com/Softinator-TechLabs/feedbacks-oss",
-  "source_revision": "a257d6a17c9528c51047e46817c554d0af515364",
-  "source_tag": "v0.2.2",
-  "source_ci": "https://github.com/Softinator-TechLabs/feedbacks-oss/actions/runs/36849353528",
-  "packaging": "Canonical native Claude Code/Codex bundle; catalogs point to the respective runtime subdirectories. No private launch material.",
+  "source_revision": "1bbdbabf718d9c8dc551243256efdf118703f711",
+  "source_tag": "v0.2.3",
+  "source_ci": "https://github.com/Softinator-TechLabs/feedbacks-oss/actions/runs/39533813828",
+  "packaging": "Exact published canonical native Claude Code/Codex bundles; catalogs point to runtime subdirectories. No private launch material.",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -13,6 +13,10 @@
     {
       "path": ".claude-plugin/marketplace.json",
       "sha256": "d4f97a93fb07b11cfa9ff083ca15df92d66d8d04c93cf53b832e307e40335dd5"
+    },
+    {
+      "path": ".github/workflows/publish-mcp-registry.yml",
+      "sha256": "e4b68e2bc9806582092aa06d53b4ae7ac748f91f4e61ed7ca3e8640ed4b5d1d1"
     },
     {
       "path": ".gitignore",
@@ -28,7 +32,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "4138fed1ee0c066e968fb5a35420ae6197ee0b69b379c9ecdd759330b7797c5f"
+      "sha256": "44b0a662b6d9b564a14e0f82559150d7a2464cd8db3b8dc078e2fcde81cc701c"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -36,7 +40,7 @@
     },
     {
       "path": "claude/feedbacks/.claude-plugin/plugin.json",
-      "sha256": "764fe73ea67a7d4c60d126eed73453fff9852da5f161555f7b049788901e1751"
+      "sha256": "b4eb711be0c823d61bdfc770229487ec7de321a1b3a590922fd1bd61531a7489"
     },
     {
       "path": "claude/feedbacks/.mcp.json",
@@ -44,7 +48,7 @@
     },
     {
       "path": "claude/feedbacks/BUILD.json",
-      "sha256": "c9639c431205f55d772c55a27d6fb46b69747da0006e4474364b203e8eea5df6"
+      "sha256": "8498425b4d3a5e29ebaa553d522c48b8d5742de98024351d26ba7313322152b8"
     },
     {
       "path": "claude/feedbacks/LICENSE",
@@ -92,11 +96,11 @@
     },
     {
       "path": "claude/feedbacks/mcp.mjs",
-      "sha256": "6a575f9826a60f9d9a15d324507f8da1cf66ac4ab08607b85bedf80323507872"
+      "sha256": "96bf54265da9703ee152c235761ef01bb3461d9407f21c69b876c365a5ff3746"
     },
     {
       "path": "claude/feedbacks/mcp.mjs.LEGAL.txt",
-      "sha256": "524901148a872ee4ae93dab83daee507d990e1acfa696e95e2271b1184f4a2a6"
+      "sha256": "728cac7ea021e5d5d50b6f4f15d1ca1b2c25fd31bdb25ed49e3d2fced5f513dd"
     },
     {
       "path": "claude/feedbacks/skills/manage-feedbacks-context/SKILL.md",
@@ -124,7 +128,7 @@
     },
     {
       "path": "codex/feedbacks/.codex-plugin/plugin.json",
-      "sha256": "0fba7888192873506ccfb5574e597ec8a6d952c2f3ffb9c97c4c1c2cb383ec22"
+      "sha256": "32bc5570ff5ccef6c1406a24799a58b0ed831ea9013f29c2f57f9f27ffb2efe0"
     },
     {
       "path": "codex/feedbacks/.mcp.json",
@@ -132,7 +136,7 @@
     },
     {
       "path": "codex/feedbacks/BUILD.json",
-      "sha256": "c9639c431205f55d772c55a27d6fb46b69747da0006e4474364b203e8eea5df6"
+      "sha256": "8498425b4d3a5e29ebaa553d522c48b8d5742de98024351d26ba7313322152b8"
     },
     {
       "path": "codex/feedbacks/LICENSE",
@@ -184,15 +188,15 @@
     },
     {
       "path": "codex/feedbacks/mcp.mjs",
-      "sha256": "6a575f9826a60f9d9a15d324507f8da1cf66ac4ab08607b85bedf80323507872"
+      "sha256": "96bf54265da9703ee152c235761ef01bb3461d9407f21c69b876c365a5ff3746"
     },
     {
       "path": "codex/feedbacks/mcp.mjs.LEGAL.txt",
-      "sha256": "524901148a872ee4ae93dab83daee507d990e1acfa696e95e2271b1184f4a2a6"
+      "sha256": "728cac7ea021e5d5d50b6f4f15d1ca1b2c25fd31bdb25ed49e3d2fced5f513dd"
     },
     {
       "path": "codex/feedbacks/plugin.json",
-      "sha256": "29c8e165e76b81d19291f62239f607be0565a7319fc3ab223b8b9a111071543e"
+      "sha256": "dbbd9813c125e031b46b9bb9e6cee7dafc668ccb639973e60ca5524d2347a6e7"
     },
     {
       "path": "codex/feedbacks/skills/manage-feedbacks-context/SKILL.md",
@@ -217,6 +221,10 @@
     {
       "path": "codex/feedbacks/skills/review-feedback/references/workflow.md",
       "sha256": "97bab8e0ecb3c9f7584c49eac8cb15e0cc003986b3e8d6874f83435f7da3dcfa"
+    },
+    {
+      "path": "registry/server.json",
+      "sha256": "c9e51600b3f994bcdd8e0f850f56d6129a436fbfd3b9c4d09d2c88c54dc9c902"
     }
   ]
 }

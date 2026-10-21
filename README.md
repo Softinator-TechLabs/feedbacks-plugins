@@ -43,13 +43,17 @@ Codex: inspect `codex plugin --help` for the installed version's update/remove c
 
 This is the publisher's own marketplace. It is separate from Anthropic's and OpenAI's reviewed public directories. No directory approval is claimed.
 
+## Official directory status
+
+As of 21 October 2026, the direct installations above are available. Anthropic’s official-directory publish request is waiting for reviewer approval. OpenAI submission access for the desktop local-MCP package is under support review; a public-directory submission is not yet confirmed. Neither official listing is live, and no approval date is promised.
+
 ## Source and support
 
 Built from the versioned public source; see `SOURCE.json` for the exact revision and file hashes. Runtime code, skills and licensing are generated/copied from the canonical OSS build. Do not edit bundled code here; change the source and rebuild.
 
 ## MCP bundle
 
-Other clients that support MCPB can install the [portable stdio adapter](https://github.com/Softinator-TechLabs/feedbacks-plugins/releases/tag/v0.2.2). Configure your own server URL and personal scoped key in the client's private settings. Native Claude Code and Codex skills remain available through the installation commands above.
+Other clients that support MCPB can install the [portable stdio adapter](https://github.com/Softinator-TechLabs/feedbacks-plugins/releases/tag/v0.2.3). Configure your own server URL and personal scoped key in the client's private settings. Native Claude Code and Codex skills remain available through the installation commands above.
 
 Maintainers publish `registry/server.json` using the manually triggered **Publish MCP Registry** workflow on `main`. The pinned official publisher authenticates with a short-lived GitHub Actions identity; no stored GitHub token or repository access is supplied to the registry. Update the manifest only after the referenced versioned bundle and its SHA-256 are available.
 
