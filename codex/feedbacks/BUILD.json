@@ -7,16 +7,16 @@
   "dependencies": [
     {
       "name": "@modelcontextprotocol/core",
-      "version": "2.1.0",
-      "license": "MIT",
+      "version": "2.3.1",
+      "license": "Apache-2.0",
       "files": [
         "licenses/@modelcontextprotocol/core/LICENSE"
       ]
     },
     {
       "name": "@modelcontextprotocol/node",
-      "version": "2.1.0",
-      "license": "MIT",
+      "version": "2.1.1",
+      "license": "Apache-2.0",
       "files": [
         "licenses/@modelcontextprotocol/node/LICENSE"
       ]
@@ -31,8 +31,8 @@
     },
     {
       "name": "@modelcontextprotocol/server",
-      "version": "2.1.0",
-      "license": "MIT",
+      "version": "2.3.1",
+      "license": "Apache-2.0",
       "files": [
         "licenses/@modelcontextprotocol/server/LICENSE"
       ]
@@ -47,7 +47,7 @@
     }
   ],
   "inputs": [
-    "node_modules/@modelcontextprotocol/core/dist/auth-CGP0BDVq.mjs",
+    "node_modules/@modelcontextprotocol/core/dist/auth-BNDyLTqp.mjs",
     "node_modules/@modelcontextprotocol/core/dist/internal.mjs",
     "node_modules/@modelcontextprotocol/node/dist/index.mjs",
     "node_modules/@modelcontextprotocol/node/node_modules/@hono/node-server/dist/index.mjs",
@@ -55,9 +55,9 @@
     "node_modules/@modelcontextprotocol/server/dist/chunk-Br0eD_fh.mjs",
     "node_modules/@modelcontextprotocol/server/dist/dialects-DoSzNhcb.mjs",
     "node_modules/@modelcontextprotocol/server/dist/index.mjs",
-    "node_modules/@modelcontextprotocol/server/dist/mcp-Dw2OlZ1f.mjs",
+    "node_modules/@modelcontextprotocol/server/dist/mcp-DIH4cS6P.mjs",
     "node_modules/@modelcontextprotocol/server/dist/shimsNode.mjs",
-    "node_modules/@modelcontextprotocol/server/dist/src-D-y6h4N7.mjs",
+    "node_modules/@modelcontextprotocol/server/dist/src-Cqbh3MYc.mjs",
     "node_modules/@modelcontextprotocol/server/dist/stdio.mjs",
     "node_modules/zod/index.js",
     "node_modules/zod/v4/classic/checks.js",

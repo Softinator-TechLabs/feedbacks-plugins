@@ -1,6 +1,6 @@
 Bundled license information:
 
-@modelcontextprotocol/server/dist/src-D-y6h4N7.mjs:
+@modelcontextprotocol/server/dist/src-Cqbh3MYc.mjs:
   /*!
   * content-type
   * Copyright(c) 2015 Douglas Christopher Wilson
