@@ -1,10 +1,24 @@
 {
-  "version": "0.2.3",
+  "version": "0.3.1",
   "source_repository": "https://github.com/Softinator-TechLabs/feedbacks-oss",
-  "source_revision": "1bbdbabf718d9c8dc551243256efdf118703f711",
-  "source_tag": "v0.2.3",
-  "source_ci": "https://github.com/Softinator-TechLabs/feedbacks-oss/actions/runs/39533813828",
+  "source_revision": "6387b8d61971edaf75063aaeb6478a73f41542c5",
+  "source_tag": "v0.3.1",
+  "source_ci": "https://github.com/Softinator-TechLabs/feedbacks-oss/actions/runs/39648999766",
   "packaging": "Exact published canonical native Claude Code/Codex bundles; catalogs point to runtime subdirectories. No private launch material.",
+  "bundles": {
+    "codex": {
+      "asset": "feedbacks-codex-plugin-0.3.1.zip",
+      "sha256": "6108daf7535ff559cca6575e77f8153e6fa345f5662aa2c10b95f3cf58c80d56",
+      "bytes": 356606,
+      "file_count": 24
+    },
+    "claude": {
+      "asset": "feedbacks-claude-plugin-0.3.1.zip",
+      "sha256": "7ce235f13f5cf1892432ff2cc9dd497788c0a1b8c7513a49dcb2c72cd866acc3",
+      "bytes": 353837,
+      "file_count": 22
+    }
+  },
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -17,6 +31,10 @@
     {
       "path": ".github/workflows/publish-mcp-registry.yml",
       "sha256": "e4b68e2bc9806582092aa06d53b4ae7ac748f91f4e61ed7ca3e8640ed4b5d1d1"
+    },
+    {
+      "path": ".github/workflows/verify-packages.yml",
+      "sha256": "063766bf88bc0da93a0e3c1df0bbcbf9bbedc826eb65c1457746bf4483f77b5b"
     },
     {
       "path": ".gitignore",
@@ -32,15 +50,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "44b0a662b6d9b564a14e0f82559150d7a2464cd8db3b8dc078e2fcde81cc701c"
+      "sha256": "d1023b5d4ade42de5392303e6b49a4ee0a179b11628a976888b933cd43d63d00"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "fdc5c602deb0fcea4a06a099283421174301d72d5974f11615d55a777d014af6"
+      "sha256": "a6378d72b05566e1cf3d47901b7c5fa2d9a11183fb749a1a1ca9813a14099cc7"
     },
     {
       "path": "claude/feedbacks/.claude-plugin/plugin.json",
-      "sha256": "b4eb711be0c823d61bdfc770229487ec7de321a1b3a590922fd1bd61531a7489"
+      "sha256": "693e97c865be8937f36135b9de661df8f937edbe05cd6ccbe099fa52d721275d"
     },
     {
       "path": "claude/feedbacks/.mcp.json",
@@ -48,7 +66,7 @@
     },
     {
       "path": "claude/feedbacks/BUILD.json",
-      "sha256": "8498425b4d3a5e29ebaa553d522c48b8d5742de98024351d26ba7313322152b8"
+      "sha256": "3195415aa6f1047a00db5c54660e8b14ee55738ef3d14373dc8f9e865bdf2317"
     },
     {
       "path": "claude/feedbacks/LICENSE",
@@ -64,7 +82,7 @@
     },
     {
       "path": "claude/feedbacks/THIRD_PARTY_NOTICES.md",
-      "sha256": "fdc5c602deb0fcea4a06a099283421174301d72d5974f11615d55a777d014af6"
+      "sha256": "a6378d72b05566e1cf3d47901b7c5fa2d9a11183fb749a1a1ca9813a14099cc7"
     },
     {
       "path": "claude/feedbacks/assets/icon.png",
@@ -96,7 +114,7 @@
     },
     {
       "path": "claude/feedbacks/mcp.mjs",
-      "sha256": "96bf54265da9703ee152c235761ef01bb3461d9407f21c69b876c365a5ff3746"
+      "sha256": "9d1628fd082ae294472a0c57edeaf5ac8151a495ae54356d1537b2a5d97bc104"
     },
     {
       "path": "claude/feedbacks/mcp.mjs.LEGAL.txt",
@@ -128,7 +146,7 @@
     },
     {
       "path": "codex/feedbacks/.codex-plugin/plugin.json",
-      "sha256": "32bc5570ff5ccef6c1406a24799a58b0ed831ea9013f29c2f57f9f27ffb2efe0"
+      "sha256": "cd099964ffc250ea2361ebb8199c96f3175afbbd50eaa1cc6f6768c2f7dd4b10"
     },
     {
       "path": "codex/feedbacks/.mcp.json",
@@ -136,7 +154,7 @@
     },
     {
       "path": "codex/feedbacks/BUILD.json",
-      "sha256": "8498425b4d3a5e29ebaa553d522c48b8d5742de98024351d26ba7313322152b8"
+      "sha256": "3195415aa6f1047a00db5c54660e8b14ee55738ef3d14373dc8f9e865bdf2317"
     },
     {
       "path": "codex/feedbacks/LICENSE",
@@ -152,7 +170,7 @@
     },
     {
       "path": "codex/feedbacks/THIRD_PARTY_NOTICES.md",
-      "sha256": "fdc5c602deb0fcea4a06a099283421174301d72d5974f11615d55a777d014af6"
+      "sha256": "a6378d72b05566e1cf3d47901b7c5fa2d9a11183fb749a1a1ca9813a14099cc7"
     },
     {
       "path": "codex/feedbacks/assets/icon.png",
@@ -188,7 +206,7 @@
     },
     {
       "path": "codex/feedbacks/mcp.mjs",
-      "sha256": "96bf54265da9703ee152c235761ef01bb3461d9407f21c69b876c365a5ff3746"
+      "sha256": "9d1628fd082ae294472a0c57edeaf5ac8151a495ae54356d1537b2a5d97bc104"
     },
     {
       "path": "codex/feedbacks/mcp.mjs.LEGAL.txt",
@@ -196,7 +214,7 @@
     },
     {
       "path": "codex/feedbacks/plugin.json",
-      "sha256": "dbbd9813c125e031b46b9bb9e6cee7dafc668ccb639973e60ca5524d2347a6e7"
+      "sha256": "61727109d2b1df56c8da9b3a683c7556f810d560738cedf1378e8cbb12d1838e"
     },
     {
       "path": "codex/feedbacks/skills/manage-feedbacks-context/SKILL.md",
@@ -225,6 +243,10 @@
     {
       "path": "registry/server.json",
       "sha256": "c9e51600b3f994bcdd8e0f850f56d6129a436fbfd3b9c4d09d2c88c54dc9c902"
+    },
+    {
+      "path": "scripts/sync-plugins.py",
+      "sha256": "ada61b99a023301197249025e9601c5409ea6449673ae5ec47e09119a4661a81"
     }
   ]
 }

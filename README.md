@@ -49,12 +49,29 @@ As of 21 October 2026, the direct installations above are available. Anthropic鈥
 
 ## Source and support
 
+The direct-install Codex and Claude Code plugins are **0.3.1**, copied without modification from the [verified OSS release](https://github.com/Softinator-TechLabs/feedbacks-oss/releases/tag/v0.3.1). Existing clients must update their marketplace plugin and start a new session; this publication does not update installed clients automatically.
+
 Built from the versioned public source; see `SOURCE.json` for the exact revision and file hashes. Runtime code, skills and licensing are generated/copied from the canonical OSS build. Do not edit bundled code here; change the source and rebuild.
 
 ## MCP bundle
 
 Other clients that support MCPB can install the [portable stdio adapter](https://github.com/Softinator-TechLabs/feedbacks-plugins/releases/tag/v0.2.3). Configure your own server URL and personal scoped key in the client's private settings. Native Claude Code and Codex skills remain available through the installation commands above.
 
+The separately versioned portable MCPB and MCP Registry entry remain at **0.2.3**. They are not the native Codex/Claude plugin version.
+
 Maintainers publish `registry/server.json` using the manually triggered **Publish MCP Registry** workflow on `main`. The pinned official publisher authenticates with a short-lived GitHub Actions identity; no stored GitHub token or repository access is supplied to the registry. Update the manifest only after the referenced versioned bundle and its SHA-256 are available.
 
 [Setup guide](https://feedbacks.softinator.ai/docs/guide/mcp) 路 [Storage guide](https://feedbacks.softinator.ai/docs/guide/storage) 路 [Privacy](https://feedbacks.softinator.ai/privacy.html) 路 [Issues](https://github.com/Softinator-TechLabs/feedbacks-oss/issues) 路 [License](LICENSE)
+
+## Maintainer verification
+
+Run `python3 scripts/sync-plugins.py check` to download the canonical versioned release, verify its checksums and source revision, and compare both native plugin trees byte for byte. CI also checks the bundled JavaScript on Node 22 and 24. No server credentials or dependency installation are needed.
+
+For a native plugin release, first publish and verify the canonical OSS assets. Then run:
+
+```sh
+python3 scripts/sync-plugins.py sync --version VERSION --source-revision FULL_OSS_SHA --source-ci EXACT_SOURCE_CI_URL
+python3 scripts/sync-plugins.py check
+```
+
+Review changes through a pull request and wait for its package checks before merging. Publish the unchanged canonical ZIPs with checksums in the versioned release. Keep prior releases and the separate MCPB manifest unless that adapter is also being released.
